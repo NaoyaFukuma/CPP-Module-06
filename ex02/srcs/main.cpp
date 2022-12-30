@@ -6,7 +6,7 @@
 /*   By: nfukuma <nfukuma@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 23:20:09 by nfukuma           #+#    #+#             */
-/*   Updated: 2022/12/30 23:51:31 by nfukuma          ###   ########.fr       */
+/*   Updated: 2022/12/30 23:54:29 by nfukuma          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	main()
 	Base	*p;
 
 	srand(time(NULL));
-		std::cout << "\e[33mWhat is the identity of the derived class?\nA class? B class? C class?\nLet's use the base class \"Base\" to check derived class.\e[m\n" << std::endl;
+	std::cout << "\e[33mWhat is the identity of the derived class?\nA class? B class? C class?\nLet's use the base class \"Base\" to check derived class.\e[m\n" << std::endl;
 	for (int i = 0; i < 5; i++)
 	{
 		p = generate();
