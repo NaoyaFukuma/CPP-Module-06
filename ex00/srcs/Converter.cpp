@@ -6,25 +6,24 @@
 /*   By: nfukuma <nfukuma@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/29 12:26:38 by nfukuma           #+#    #+#             */
-/*   Updated: 2022/12/30 11:14:50 by nfukuma          ###   ########.fr       */
+/*   Updated: 2023/01/03 22:50:01 by nfukuma          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Converter.hpp"
 #include <iostream>
 #include <iomanip>
+
 #define isFunctionsNum 5
 
-/*
 enum	e_type
 {
 	CHAR,
 	INT,
 	FLOAT,
 	DOUBLE,
-	LITERALS
+	LITERALS,
 };
-*/
 
 bool Converter::isChar() const
 {
